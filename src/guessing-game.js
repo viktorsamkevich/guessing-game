@@ -16,12 +16,12 @@ class GuessingGame {
 	}
 
 	lower() {
+		this._max = this._guess;
+	}
 
-    }
-
-    greater() {
-    	
-    }
+	greater() {
+		this._min = this._guess;
+	}
 }
 
 module.exports = GuessingGame;
